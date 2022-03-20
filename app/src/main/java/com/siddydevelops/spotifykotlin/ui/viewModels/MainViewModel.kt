@@ -1,6 +1,5 @@
 package com.siddydevelops.spotifykotlin.ui.viewModels
 
-import android.media.browse.MediaBrowser
 import android.os.Build
 import android.support.v4.media.MediaBrowserCompat
 import android.support.v4.media.MediaMetadataCompat.METADATA_KEY_MEDIA_ID

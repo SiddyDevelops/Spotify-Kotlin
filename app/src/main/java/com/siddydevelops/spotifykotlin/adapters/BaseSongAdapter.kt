@@ -15,7 +15,7 @@ abstract class BaseSongAdapter(
 ) : RecyclerView.Adapter<BaseSongAdapter.SongViewHolder>() {
     class SongViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
-    private val diffCallback = object : DiffUtil.ItemCallback<Song>(){
+    protected val diffCallback = object : DiffUtil.ItemCallback<Song>(){
         override fun areItemsTheSame(oldItem: Song, newItem: Song): Boolean {
             return oldItem.mediaId == newItem.mediaId
         }
@@ -26,7 +26,7 @@ abstract class BaseSongAdapter(
 
     }
 
-    protected abstract var differ : AsyncListDiffer<Song>
+    protected abstract val differ : AsyncListDiffer<Song>
 
     var songs: List<Song>
         get() = differ.currentList

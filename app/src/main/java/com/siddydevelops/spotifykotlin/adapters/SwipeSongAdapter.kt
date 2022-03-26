@@ -5,7 +5,7 @@ import com.siddydevelops.spotifykotlin.R
 import com.siddydevelops.spotifykotlin.data.entities.Song
 import kotlinx.android.synthetic.main.list_item.view.tvPrimary
 
-class SwipeSongAdapter : BaseSongAdapter(R.layout.list_item) {
+class SwipeSongAdapter : BaseSongAdapter(R.layout.swipe_item) {
 
     override val differ: AsyncListDiffer<Song> = AsyncListDiffer(this, diffCallback)
 

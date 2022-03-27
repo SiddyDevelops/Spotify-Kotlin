@@ -10,4 +10,5 @@ Technologies Used:
 - Daggar Hint
 
 TODO: UI
+
 Bugs: Song SeekBar

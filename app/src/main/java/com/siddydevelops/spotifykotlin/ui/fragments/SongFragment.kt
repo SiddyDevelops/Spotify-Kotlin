@@ -16,7 +16,6 @@ import com.siddydevelops.spotifykotlin.other.Status
 import com.siddydevelops.spotifykotlin.ui.viewModels.MainViewModel
 import com.siddydevelops.spotifykotlin.ui.viewModels.SongViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_song.*
 import java.text.SimpleDateFormat
 import java.util.*

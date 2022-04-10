@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.bumptech.glide.RequestManager
 import com.google.android.material.snackbar.Snackbar
+import com.siddydevelops.customlottiedialogbox.CustomLottieDialog
 import com.siddydevelops.spotifykotlin.R
 import com.siddydevelops.spotifykotlin.adapters.SwipeSongAdapter
 import com.siddydevelops.spotifykotlin.data.entities.Song
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var glide: RequestManager
 
     private var curPLayingSong: Song? = null
+    private lateinit var customLottieDialog: CustomLottieDialog
 
     private var playBackState: PlaybackStateCompat? = null
 
@@ -39,7 +41,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        window.navigationBarColor = resources.getColor(R.color.bluish_black)
+        customLottieDialog = CustomLottieDialog(this,"LO06")
+        customLottieDialog.setLottieBackgroundColor("#FFCB74")
+        customLottieDialog.setLoadingTextColor("#FFFFFF")
+        customLottieDialog.setLoadingText("")
+        customLottieDialog.show()
+
+        window.navigationBarColor = resources.getColor(R.color. bluish_black)
         ivCurSongImage.clipToOutline = true
         vpSong.adapter = swipeSongAdapter
         subscribeToObservers()
@@ -47,6 +55,7 @@ class MainActivity : AppCompatActivity() {
         vpSong.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
+                customLottieDialog.dismiss()
                 if(playBackState?.isPlaying == true) {
                     mainViewModel.playOrToggleSong(swipeSongAdapter.songs[position])
                 } else {

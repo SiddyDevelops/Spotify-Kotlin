@@ -15,6 +15,7 @@ import com.siddydevelops.spotifykotlin.exoplayer.isPlaying
 import com.siddydevelops.spotifykotlin.exoplayer.isPrepared
 import com.siddydevelops.spotifykotlin.other.Constants.MEDIA_ROOT_ID
 import com.siddydevelops.spotifykotlin.other.Resource
+import com.siddydevelops.spotifykotlin.ui.MainActivity
 
 class MainViewModel @ViewModelInject constructor(
     private val musicServiceConnection: MusicServiceConnection

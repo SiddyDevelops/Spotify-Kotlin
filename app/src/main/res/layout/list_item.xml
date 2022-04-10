@@ -22,6 +22,7 @@
                 android:id="@+id/ivItemImage"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:scaleType="centerCrop"
                 android:clipToOutline="true"
                 android:background="@drawable/image_round_corners"
                 app:layout_constraintStart_toStartOf="parent"

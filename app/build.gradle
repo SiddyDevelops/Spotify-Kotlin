@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "com.siddydevelops.spotifykotlin"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
@@ -99,4 +99,8 @@ dependencies {
     api "com.google.android.exoplayer:exoplayer-core:2.11.8"
     api "com.google.android.exoplayer:exoplayer-ui:2.11.8"
     api "com.google.android.exoplayer:extension-mediasession:2.11.8"
+
+    //CustomLottieDialogBox
+    implementation 'com.github.SiddyDevelops:CustomLottieDialogBox-Android:0.2.0'
+
 }

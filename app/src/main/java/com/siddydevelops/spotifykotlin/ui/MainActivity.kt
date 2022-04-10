@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        window.navigationBarColor = resources.getColor(R.color.bluish_black)
         ivCurSongImage.clipToOutline = true
         vpSong.adapter = swipeSongAdapter
         subscribeToObservers()

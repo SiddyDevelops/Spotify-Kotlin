@@ -19,6 +19,7 @@ class SongAdapter @Inject constructor(
         holder.itemView.apply {
             tvPrimary.text = song.title
             tvSecondary.text = song.subtitle
+            ivItemImage.clipToOutline = true
             glide.load(song.imageURL).into(ivItemImage)
             setOnClickListener{
                 onItemClickListener?.let { click->

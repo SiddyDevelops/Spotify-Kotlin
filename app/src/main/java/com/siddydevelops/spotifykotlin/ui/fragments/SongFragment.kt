@@ -16,7 +16,10 @@ import com.siddydevelops.spotifykotlin.other.Status
 import com.siddydevelops.spotifykotlin.ui.viewModels.MainViewModel
 import com.siddydevelops.spotifykotlin.ui.viewModels.SongViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_song.*
+import kotlinx.android.synthetic.main.list_item.*
+import kotlinx.android.synthetic.main.list_item.view.*
 import java.text.SimpleDateFormat
 import java.util.*
 import javax.inject.Inject
@@ -36,6 +39,8 @@ class SongFragment : Fragment(R.layout.fragment_song) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        title_textView.text = "Currently Playing"
+        ivSongImage.clipToOutline = true
         mainViewModel = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
         subscribeToObservers()
 

@@ -2,4 +2,9 @@
     <string name="app_name">SpotifyClone</string>
     <string name="notification_channel_name">Music Channel</string>
     <string name="notification_channel_description">Shows the currently playing music</string>
+    <string name="your_songs">Your Songs</string>
+    <string name="_100_songs">100 Songs</string>
+    <string name="playlist_title">Playlist Title</string>
+    <string name="song_cover_image">song_cover_image</string>
+    <string name="song_name">SONG NAME</string>
 </resources>

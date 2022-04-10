@@ -29,6 +29,6 @@
 
     <style name="PoppinsTextStyle" parent="android:Widget.TextView">
         <item name="fontFamily">@font/poppins_regular</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/light_black</item>
     </style>
 </resources>

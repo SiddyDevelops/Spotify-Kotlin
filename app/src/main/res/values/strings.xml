@@ -7,4 +7,5 @@
     <string name="playlist_title">Playlist Title</string>
     <string name="song_cover_image">song_cover_image</string>
     <string name="song_name">SONG NAME</string>
+    <string name="_00_00">00:00</string>
 </resources>

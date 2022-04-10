@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bluish_black"
     tools:context=".ui.MainActivity">
 
     <ProgressBar
@@ -21,6 +22,7 @@
         android:id="@+id/rvAllSongs"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/bluish_black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        ivCurSongImage.clipToOutline = true
         vpSong.adapter = swipeSongAdapter
         subscribeToObservers()
 

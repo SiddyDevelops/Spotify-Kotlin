@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/siddh/AndroidStudioProjects/SpotifyKotlin/app/src/main/res/drawable-anydpi/ic_skip.xml" value="0.138" />
+        <entry key="..\:/Users/siddh/AndroidStudioProjects/SpotifyKotlin/app/src/main/res/drawable-anydpi/ic_skip_previous.xml" value="0.138" />
+        <entry key="..\:/Users/siddh/AndroidStudioProjects/SpotifyKotlin/app/src/main/res/drawable/ic_play.xml" value="0.138" />
         <entry key="..\:/Users/siddh/AndroidStudioProjects/SpotifyKotlin/app/src/main/res/drawable/image_round_corners.xml" value="0.138" />
         <entry key="..\:/Users/siddh/AndroidStudioProjects/SpotifyKotlin/app/src/main/res/layout-land/fragment_song.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/siddh/AndroidStudioProjects/SpotifyKotlin/app/src/main/res/layout/activity_main.xml" value="0.12082066869300911" />

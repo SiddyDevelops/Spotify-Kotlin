@@ -9,9 +9,9 @@
 
 ## Screenshots:
 <p align="center">
-  <img width="250" height="550" src="https://github.com/SiddyDevelops/Spotify-Kotlin/blob/master/Screenshots/SongList.jpg">  
-  <img width="250" height="550" src="https://github.com/SiddyDevelops/Spotify-Kotlin/blob/master/Screenshots/SpecificSong.jpg">
-  <img width="250" height="550" src="https://github.com/SiddyDevelops/Spotify-Kotlin/blob/master/Screenshots/Notification.jpg">
+  <img width="250" height="500" src="https://github.com/SiddyDevelops/Spotify-Kotlin/blob/master/Screenshots/SongList.jpg">  
+  <img width="250" height="500" src="https://github.com/SiddyDevelops/Spotify-Kotlin/blob/master/Screenshots/SpecificSong.jpg">
+  <img width="250" height="500" src="https://github.com/SiddyDevelops/Spotify-Kotlin/blob/master/Screenshots/Notification.jpg">
 </p>
 
 ## Technologies Used: 
